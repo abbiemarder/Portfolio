@@ -133,93 +133,6 @@ font-family: "Style Script", cursive;
   font-family: 'Raleway', sans-serif;
 }
 
-.contact-form-wrapper {
-  padding: 100px 0;
-}
-
-.contact-form {
-  padding: 30px 40px;
-  background-color: #ffffff;
-  border-radius: 12px;
-  max-width: 400px;
-}
-
-.contact-form textarea {
-  resize: none;
-}
-
-.contact-form .form-input,
-.form-text-area {
-  background-color: #f0f4f5;
-  height: 50px;
-  padding-left: 16px;
-}
-
-.contact-form .form-text-area {
-  background-color: #f0f4f5;
-  height: auto;
-  padding-left: 16px;
-}
-
-.contact-form .form-control::placeholder {
-  color: #aeb4b9;
-  font-weight: 500;
-  opacity: 1;
-}
-
-.contact-form .form-control:-ms-input-placeholder {
-  color: #aeb4b9;
-  font-weight: 500;
-}
-
-.contact-form .form-control::-ms-input-placeholder {
-  color: #aeb4b9;
-  font-weight: 500;
-}
-
-.contact-form .form-control:focus {
-  border-color: rgb(49, 14, 131);
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.07), 0 0 8px rgb(49, 14, 131);
-}
-
-.contact-form .title {
-  text-align: center;
-  font-size: 50px;
-  font-weight: 500;
-  font-family: "Style Script", cursive;
-  color:  rgb(49, 14, 131);
-}
-
-.contact-form .description {
-  color: #aeb4b9;
-  font-size: 16px;
-  text-align: center;
-  font-family: 'Mukta', sans-serif;
-
-
-}
-
-.contact-form .submit-button-wrapper {
-  text-align: center;
-}
-
-.contact-form .submit-button-wrapper input {
-  border: none;
-  border-radius: 4px;
-  background-color: background: rgb(207,186,255);
-background: linear-gradient(90deg, rgba(207,186,255,1) 0%, rgba(183,150,251,1) 15%, rgba(161,113,255,1) 32%, rgba(147,85,255,1) 46%, rgba(143,90,236,1) 61%, rgba(112,50,218,1) 75%, rgba(79,17,182,1) 88%, rgba(68,0,176,1) 100%);2;
-  color: white;
-  text-transform: uppercase;
-  padding: 10px 60px;
-  font-weight: 500;
-  letter-spacing: 2px;
-}
-
-.contact-form .submit-button-wrapper input:hover {
-  background-color:background: rgb(207,186,255);
-background: linear-gradient(260deg, rgba(207,186,255,1) 0%, rgba(183,150,251,1) 15%, rgba(161,113,255,1) 32%, rgba(147,85,255,1) 46%, rgba(143,90,236,1) 61%, rgba(112,50,218,1) 75%, rgba(79,17,182,1) 88%, rgba(68,0,176,1) 100%);;
-}
-
 .color {
   color: rgb(49, 14, 131);
 font-family: 'Raleway', sans-serif;
@@ -346,4 +259,45 @@ font-family: "Style Script", cursive;
 .dropdown-menu li{
   font-family: 'Raleway', sans-serif;
   font-size:16px; 
+}
+
+
+/*contact css*/
+.form {
+  padding-top: 120px;
+}
+.bg {
+  background-color:rgb(49, 14, 131);
+  padding: 30px 80px;
+  font-size: 30px;
+  border-radius: 10px;
+  max-width: 700px;
+  margin:auto;
+}
+
+.textfield {
+  background-color: #ffffff;
+  border-radius: 10px;
+  color: #8f8f8f;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.textfield .form-text-area {
+  background-color: #f0f4f5;
+  height: auto;
+  padding-left: 20px;
+}
+
+.title1 {
+  color: white;
+font-family: "Style Script", cursive;  
+font-size: 70px;
+}
+
+.send {
+  padding-top: 5px;
+  padding-bottom: 2px;
+  font-family: 'Roboto Condensed', sans-serif;
+  background: rgb(172, 255, 166);
+  background: linear-gradient(260deg, rgba(172, 255, 166, 1) 0%, rgba(117, 230, 124, 1) 30%, rgba(74, 210, 91, 1) 49%, rgba(40, 194, 64, 1) 74%, rgba(0, 139, 27, 1) 100%);
 }
