@@ -164,7 +164,7 @@ font-family: 'Raleway', sans-serif;
     color: rgb(49, 14, 131) !important;
 font-family: "Style Script", cursive;
   font-size: 80px;
-  margin-top: 30px;
+  margin-top: 40px;
   }
 
 .hovereffect {
@@ -301,4 +301,19 @@ font-family: "Style Script", cursive;
   padding-bottom: 2px;
   font-family: 'Raleway', sans-serif;background: rgb(163, 128, 247);
   background: linear-gradient(260deg, rgba(163, 128, 247, 1) 0%, rgba(118, 83, 202, 1) 30%, rgba(108, 73, 191, 1) 48%, rgba(61, 23, 151, 0) 100%);
+}
+
+.more {
+  text-align: center;
+  text-decoration: none;
+    color:rgb(49, 14, 131);
+    font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+}
+.more:hover {
+  text-align: center;
+  text-decoration: none;
+  color: rgba(163, 128, 247, 1);
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
 }
